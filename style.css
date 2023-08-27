@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 93rem;
+    max-height: 90rem;
+    margin: auto;
+    margin-top: .5rem;
+}
+
+.videos-container {
+    border-radius: 1rem;
+    padding: .6rem;
+    background-color: #fff;
+}
+
+.Topic {
+    font-size: 1.9rem;
+    font-weight: 500;
+}
+
+.playvideos {
+    width: 92rem;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.playlist-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.playlist {
+    margin: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: .7rem;
+    cursor: pointer;
+}
+
+.playlist .play .videos {
+    width: 25rem;
+}
+
+.details {
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.active {
+    background-color: rgb(255, 227, 127);
+}
